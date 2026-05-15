@@ -1,0 +1,131 @@
+body{
+    background-color: cornsilk;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: white;
+     height: 100%;
+    max-width: 400px;
+    width: 90%;
+    margin: 20px auto;
+    border-radius:10px ;
+      padding: 20px;
+    position: relative;
+    top: 20px;
+    bottom: 30px;
+  font-size: smaller;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+.text h1{
+    color: rgb(35, 35, 163);
+    padding-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text p{
+     font-family: Arial, Helvetica, sans-serif;
+     line-height: 20px;
+     padding-left: 20px;
+}
+.time{
+    background-color:#f8e6e9;
+       height:auto ; 
+     margin:20px ;   
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.time h5{
+    color: rgb(112, 31, 31);
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.time ul li{
+    padding-left: 1em;
+}
+.ingred ul li{
+    line-height: 25px;
+    padding-left: 1em;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.ingred h3{
+color:rgb(140, 76, 30);
+padding-left: 20px;
+}
+.instruct h3{
+padding-left: 20px;
+color:rgb(140, 76, 30) ;
+font-size: medium;
+}
+.instruct{
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+.instruct ol li{
+    padding-left: 1em;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.diet h3{
+    color: rgb(140, 76, 30);
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: medium;
+}
+.diet p{
+    font-family: Arial, Helvetica, sans-serif;
+padding-left: 20px;
+padding-bottom: 10px;
+}
+.table{
+    width: 100%;
+}
+.table td{
+font-family: Arial, Helvetica, sans-serif;
+padding-left: 25px;
+padding-bottom: 10px;
+border-bottom: 1px solid rgb(179, 176, 176);
+}
+.amount{
+    color: rgb(106, 15, 15);
+    font-weight: bold;
+}
+@media screen and (max-width:768px){
+    .container{
+        width: 95%;
+        padding: 15px;
+    }
+    .text h1{
+        font-size: 24px;
+    }
+    text p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .time{
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .table{
+        width: 100%;
+    }
+}
+@media screen and (max-width:480px) {
+    .conatiner{
+        width:100%;
+padding: 10px;
+    }
+    .text h1{
+        font-size: 20px;
+    }
+    .ingred ul li,
+    .instruct ol li,
+    .diet p{
+        font-size: 14px;
+    }
+    .table td{
+        padding-left: 10px;
+        font-size: 14px;
+    }
+}
